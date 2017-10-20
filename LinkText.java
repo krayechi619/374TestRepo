@@ -26,7 +26,7 @@ public class LinkText {
 	                System.out.format("The value is: " + value.getData() + "\n");
 	               
 	                mylist.printLinkedListHead();
-	       
+	                mylist.printLinkedListTail();
 	                mylist.deleteElement(3);
 	                mylist.printLinkedListHead();
 	                mylist.printLinkedListTail();

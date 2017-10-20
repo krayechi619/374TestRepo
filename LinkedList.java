@@ -5,8 +5,7 @@ public class LinkedList {
     private ListElement head;
     private ListElement tail;
     private int counter=0;
-    private int data;
-
+    
 public void addElement(ListElement x)
 {
         ListElement tempPtr;
@@ -102,6 +101,7 @@ public void printLinkedListHead()
     }
 
 
+    
 }
 
 
